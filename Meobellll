@@ -78,6 +78,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
+  })   AddButton(Tab1o, {
+     Name = "aimbot",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/huybuda1/Anh-Con-PHD-Troll/refs/heads/main/AnhCon_TheNao_LaiManh.lua"))()	  
+  end
+  })
+  })   AddButton(Tab1o, {
+     Name = "telebad",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()	  
+  end
+  })
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
